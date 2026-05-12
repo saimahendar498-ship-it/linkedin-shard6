@@ -41,7 +41,7 @@ def _load_service_account_json() -> Optional[str]:
     return None
 
 SERVICE_ACCOUNT_JSON = _load_service_account_json()
-WORKSHEET_NAME = os.environ.get("WORKSHEET_NAME", "Shard5")
+WORKSHEET_NAME = os.environ.get("WORKSHEET_NAME", "Shard6")
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
