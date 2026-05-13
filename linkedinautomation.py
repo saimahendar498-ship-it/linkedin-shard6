@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 # --- CONFIGURATION ---
 SPREADSHEET_ID       = "1muSKyg-YgV8DOiKGkvNkvtacMEPItDliy5PRBNRsUhk"
 # Folder inside shared drive where raw HTML files are uploaded
-DRIVE_HTML_FOLDER_ID = os.environ.get("DRIVE_HTML_FOLDER_ID", "10yuSAddLnuFNvEiASOewKCZgqRq77kyS")
+DRIVE_HTML_FOLDER_ID = os.environ.get("DRIVE_HTML_FOLDER_ID", "1P9YYj2mZdcSPIPk17VYqnpZp6iWr8o2n")
 JSONL_OUTPUT         = os.environ.get("JSONL_OUTPUT", "linkedin_output.jsonl")
 # OAuth user credentials (for normal folder uploads)
 OAUTH_REFRESH_TOKEN = os.environ.get("OAUTH_REFRESH_TOKEN", "")
